@@ -1,0 +1,16 @@
+body {
+	background-color: #1a2a33;
+}
+
+.center {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.ico {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 20%;
+}
