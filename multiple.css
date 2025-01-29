@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+* {
+	font-family: Outfit;
+}
+
+body {
+	background-color: #1a2a33;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.ico {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 100px;
+	width: 20%;
+	margin: 50px;
+}
