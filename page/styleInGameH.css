@@ -1,3 +1,7 @@
+html {
+	position: relative;
+}
+
 body {
 	height: 90.273vh;
 	margin: 0;
@@ -120,4 +124,102 @@ main {
 	height: 100%;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.bg {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pupuX,
+.pupuO {
+	background: #1f3641;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 15px;
+}
+
+.TTR {
+	font-family: Outfit;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30.24px;
+	letter-spacing: 1.5px;
+}
+
+.pupuX .TTR {
+	color: #31c3bd;
+}
+
+.pupuO .TTR {
+	color: #f2b137;
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.btn button:first-child {
+	background: #a8bfc9;
+	box-shadow: 0px -4px 0px 0px #6b8997 inset;
+	border: 0;
+	border-radius: 5px;
+	height: 10vh;
+	width: 15vh;
+	font-family: Outfit;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20.16px;
+	letter-spacing: 1px;
+}
+
+.btn button:last-child {
+	background: #f2b137;
+	box-shadow: 0px -4px 0px 0px #cc8b13 inset;
+	border: 0;
+	border-radius: 5px;
+	height: 10vh;
+	width: 30vh;
+	font-family: Outfit;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20.16px;
+	letter-spacing: 1px;
+}
+
+#edit {
+	font-family: Outfit;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17.64px;
+	letter-spacing: 0.875px;
+	text-align: center;
+	color: #a8bfc9;
+}
+
+.bg {
+	display: none;
+}
+
+.pupuX {
+	display: none;
+}
+
+.pupuO {
+	display: none;
 }
